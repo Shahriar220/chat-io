@@ -65,6 +65,6 @@ io.on('connection', (socket) => {
 
 
 
-server.listen(port, (req, res) => {
+server.listen(port, () => {
     console.log(`Listening to port ${port }`);
 })
